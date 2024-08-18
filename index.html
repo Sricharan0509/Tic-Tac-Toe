@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <h1>The Tic Tac Toe Game</h1>
+    <div class="board-container">
+        <div class="box" id="cell-1" data-index="1" data-index="1">
+        </div>
+        <div class="box" id="cell-2" data-index="2">
+        </div>
+        <div class="box" id="cell-3" data-index="3">
+        </div>
+        <div class="box" id="cell-4" data-index="4">
+        </div>
+        <div class="box" id="cell-5" data-index="5">
+        </div>
+        <div class="box" id="cell-6" data-index="6">
+        </div>
+        <div class="box" id="cell-7" data-index="7">
+        </div>
+        <div class="box" id="cell-8" data-index="8">
+        </div>
+        <div class="box" id="cell-9" data-index="9">
+        </div>
+    </div>
+    <div class="gamestatus"></div>
+    <div class="btn-container">
+        <button onclick="playAgain()">Restart</button>
+    </div>
+</body>
+
+</html>
